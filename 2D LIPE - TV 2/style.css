@@ -20,10 +20,11 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -62,4 +63,28 @@ body {
 }
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+ width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 }
